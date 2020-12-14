@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#more {display: none;}
+
+body{
+    background:white;
+}
+
+#title {
+    position: absolute;
+ 
+    
+    width: 20%;
+    padding: 40px;
+
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 75px;
+    text-align: right;
+    line-height: 1.47;
+    }
+
+#text {
+    position: absolute;
+    right: -253px;
+    top: 265px;
+    
+    width: 35%;
+    padding: 40px;
+
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.4;
+    }
+
+#button{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 75px;
+    text-align: center;
+
+    stroke-width: 6px;
+    background-color: white;
+    border: solid black 2px;
+}
+
+#button:hover{
+    background: black;
+    color: white;
+}
+
+#button:focus{
+    outline: none;
+}
+
+#map{
+    border: solid black 2px;
+    padding: 30px;
+    position: absolute;
+    left:450px;
+    bottom: 40px;
+    width: 825px;
+}
+
+.flies{
+    stroke:black;
+    stroke-width: 6px;
+    fill: none;
+}
+
+.flies:hover{
+    stroke: #2BFEC6;
+    fill: #2BFEC6;
+    stroke-width:40px;
+}
+
+.birds{
+    stroke:black;
+    stroke-width: 6px;
+    fill: none;
+}
+
+.birds:hover{
+    stroke: #03AFF7;
+    fill: #03AFF7;
+    stroke-width:40px;
+}
+
+.hares{
+    stroke:black;
+    stroke-width: 6px;
+    fill: none;
+}
+
+.hares:hover{
+    stroke: #EBAFF5;
+    fill: #EBAFF5;
+    stroke-width:40px;
+}
+
+.rabbits{
+    stroke:black;
+    stroke-width: 6px;
+    fill: none;
+}
+
+.rabbits:hover{
+    stroke: #6a1aff;
+    fill: #6a1aff;
+    stroke-width:40px;
+}
+
+.other{
+    stroke:black;
+    stroke-width: 6px;
+    fill: none;
+}
+
+.other:hover{
+    stroke: #F56E1E;
+    fill: #F56E1E;
+    stroke-width:40px;
+}
